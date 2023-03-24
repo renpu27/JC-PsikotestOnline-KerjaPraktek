@@ -1,0 +1,1 @@
+Feature: Menu Remove Activity Test
