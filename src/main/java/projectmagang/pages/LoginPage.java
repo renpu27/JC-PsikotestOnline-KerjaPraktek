@@ -28,16 +28,32 @@ public class LoginPage {
     @FindBy(xpath = "/html/body/div[8]/div[2]/p")
     WebElement txtWelcome;
 
+    @FindBy(xpath = "//div[@id='nikita-form-dialog']")
+    WebElement txtLoginError;
+
+    @FindBy(xpath = "//span[normalize-space()='OK']")
+    WebElement loginErrorOkBtn;
+
     public String getLoginTitle(){
         return loginTitle.getText();
     }
     public String getTxtWelcome(){return txtWelcome.getText();}
     public void clickBtnSignin(){btnSignin.click();}
+    public void dismissLoginWarningMsg() {
+        loginErrorOkBtn.click();
+    }
+    public String getLoginErrorTxt() {
+        return txtLoginError.getText();
+    }
     public void enterUsername(String username){
         this.username.sendKeys(username);
     }
     public void enterPassword(String password){
         this.password.sendKeys(password);
+    }
+    public void clearLoginForm() {
+        username.clear();
+        password.clear();
     }
 
 }
