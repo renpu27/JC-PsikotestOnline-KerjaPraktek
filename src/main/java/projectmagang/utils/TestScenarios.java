@@ -9,7 +9,8 @@ public enum TestScenarios {
     T6("Admin login dengan field username kosong"),
     T7("Admin login dengan field password kosong"),
     T8("Admin login dengan field username dan password kosong"),
-    T9("User login dengan username dan password yang valid");
+    T9("User login dengan username dan password yang valid"),
+    T10("Check akses menu Admin");
     private String testCaseName;
 
     TestScenarios(String value){

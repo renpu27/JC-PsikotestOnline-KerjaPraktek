@@ -34,6 +34,9 @@ public class LoginPage {
     @FindBy(xpath = "//span[normalize-space()='OK']")
     WebElement loginErrorOkBtn;
 
+    @FindBy(xpath = "//span[normalize-space()='OK']")
+    WebElement btnDismissLoginMsg;
+
     public String getLoginTitle(){
         return loginTitle.getText();
     }
@@ -54,6 +57,10 @@ public class LoginPage {
     public void clearLoginForm() {
         username.clear();
         password.clear();
+    }
+
+    public void dissmissLoginMsg() {
+        btnDismissLoginMsg.click();
     }
 
 }
