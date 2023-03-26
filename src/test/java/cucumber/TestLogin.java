@@ -93,5 +93,7 @@ public class TestLogin {
         Hooks.delay(5);
         Assert.assertEquals(loginPage.getTxtWelcome(),"Welcome to web psikotest");
         extentTest.log(LogStatus.PASS,"Muncul pesan welcome to web psikotest");
+        Hooks.delay(3);
+        loginPage.dissmissLoginMsg();
     }
 }
