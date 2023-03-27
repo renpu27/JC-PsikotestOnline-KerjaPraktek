@@ -17,7 +17,18 @@ public enum TestScenarios {
     T14("Check akses menu Report"),
     T15("Check akses menu Remove Activity"),
     T16("Check keyword visibility pada Search Bar"),
-    T17("Check copy-paste operation pada Search Bar");
+    T17("Check copy-paste operation pada Search Bar"),
+    T18("Cek input form dengan field Full Name kosong"),
+    T19("Cek input form dengan field Privilege kosong"),
+    T20("Cek input form dengan field Supervisor kosong"),
+    T21("Cek input form dengan field Telephone kosong"),
+    T22("Cek input form dengan field Username kosong"),
+    T23("Cek input form dengan field Password kosong"),
+    T24("Cek input form dengan password yang memiliki kriteria dibawah 8 digit"),
+    T25("Cek input form dengan password yang memiliki kriteria diatas 16 digit"),
+    T26("Cek input form dengan password yang memiliki kriteria angka saja"),
+    T27("Cek input form dengan password yang memiliki kriteria huruf saja"),
+    T28("Cek input form dengan password yang memiliki kriteria simbol saja");
     private String testCaseName;
 
     TestScenarios(String value){
