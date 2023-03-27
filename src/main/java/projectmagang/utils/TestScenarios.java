@@ -15,9 +15,7 @@ public enum TestScenarios {
     T12("Check akses menu Data Users"),
     T13("Check akses menu Data QC"),
     T14("Check akses menu Report"),
-    T15("Check akses menu Remove Activity"),
-    T16("Check keyword visibility pada Search Bar"),
-    T17("Check copy-paste operation pada Search Bar");
+    T15("Check akses menu Remove Activity");
     private String testCaseName;
 
     TestScenarios(String value){
