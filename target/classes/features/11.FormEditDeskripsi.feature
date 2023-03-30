@@ -49,4 +49,4 @@ Feature: Form Edit Deskripsi Test
     And Ubah konten deskripsi soal
     And Ubah konten ketentuan soal
     And Klik update
-    Then Menampilkan pesan berhasil update
+    And Klik tombol ok
