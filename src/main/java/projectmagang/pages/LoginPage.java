@@ -27,6 +27,8 @@ public class LoginPage {
 
     @FindBy(xpath = "/html/body/div[8]/div[2]/p")
     WebElement txtWelcome;
+    @FindBy(xpath = "/html/body/div[8]/div[3]/div/button")
+    WebElement btnOK;
 
     public String getLoginTitle(){
         return loginTitle.getText();
@@ -39,5 +41,6 @@ public class LoginPage {
     public void enterPassword(String password){
         this.password.sendKeys(password);
     }
+    public void clickBtnOK(){btnOK.click();}
 
 }

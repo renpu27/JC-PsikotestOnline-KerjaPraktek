@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jc-praktek-kelompok1" />
+        <module name="JC-PsikotestOnline-KerjaPraktek" />
       </profile>
     </annotationProcessing>
   </component>
