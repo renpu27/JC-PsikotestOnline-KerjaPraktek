@@ -24,7 +24,16 @@ public enum TestScenarios {
     T22("Admin mengosongkan status modul"),
     T23("Admin mengubah status modul"),
     T24("Admin mengosongkan seluruh form modul"),
-    T25("perbaikan form modul");
+    T25("perbaikan form modul"),
+    T26("Admin cek navigasi menu"),
+    T27("Admin mencari user non active kosong"),
+    T28("Admin mencari seorang user non active"),
+    T29("Admin salah menulis nama user non active"),
+    T30("Admin mencari active user kosong"),
+    T31("Admin mencari seorang user active"),
+    T32("Admin salah menulis nama user active"),
+    T33("Export file data users"),
+    T34("Melihat tampilan View User");
 
     //T8,T25 tidak masuk SIT
 

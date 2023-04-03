@@ -9,13 +9,11 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import projectmagang.pages.EditModulPage;
-import projectmagang.pages.LoginPage;
 
 public class TestEditModul {
     public static WebDriver driver;
     public static ExtentTest extentTest;
     public static EditModulPage editModul= new EditModulPage();
-    public static LoginPage loginPage = new LoginPage();
 
     public TestEditModul(){
         driver = Hooks.driver;

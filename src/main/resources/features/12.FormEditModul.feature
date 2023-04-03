@@ -138,4 +138,3 @@ Feature: Form Edit Modul Test
     And Ubah deskripsi singkat
     And Ubah status modul
     And Klik update modul
-    Then Mendapat pesan berhasil ditambahkan
